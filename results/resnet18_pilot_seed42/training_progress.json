@@ -1,0 +1,8 @@
+{
+  "epoch": 2,
+  "batch": 313,
+  "batches_in_epoch": 313,
+  "examples_processed": 5000,
+  "loss_so_far": 1.7579506172180175,
+  "epoch_elapsed_seconds": 193.86436887504533
+}

@@ -1,0 +1,23 @@
+{
+  "feature_names": [
+    "MSP",
+    "entropy"
+  ],
+  "coefficients": [
+    -0.4681435364608597,
+    -0.08984961378760202
+  ],
+  "feature_mean": [
+    0.4198519014667808,
+    1.5406671377775731
+  ],
+  "feature_scale": [
+    0.16782135372586013,
+    0.4043421318824476
+  ],
+  "fit_n": 1000,
+  "threshold_validation_n": 1000,
+  "intercept": 0.5027767901094709,
+  "validation_threshold": null,
+  "checkpoint_sha256": "f06e9429a0d0853626c8863995f185add49943d99dc99a971072946738784468"
+}

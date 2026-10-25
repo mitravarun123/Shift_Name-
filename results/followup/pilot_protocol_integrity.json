@@ -1,0 +1,6 @@
+{
+  "matched_training_indices": true,
+  "matched_validation_and_test_indices": true,
+  "pilot_train_is_subset_of_original_train": true,
+  "validation_and_test_match_original_seed42": true
+}

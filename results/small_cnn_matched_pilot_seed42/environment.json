@@ -1,0 +1,10 @@
+{
+  "python": "3.10.9",
+  "platform": "macOS-13.3-arm64-arm-64bit",
+  "torch": "2.11.0",
+  "torchvision": "0.16.1",
+  "numpy": "1.26.4",
+  "scikit-learn": "1.6.1",
+  "matplotlib": "3.8.0",
+  "PyYAML": "6.0.3"
+}

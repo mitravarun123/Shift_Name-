@@ -1,0 +1,1 @@
+clean: N=10,000 (one seed). Positive class: classifier error. Labels give AUROC. Same examples for all methods.

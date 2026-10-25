@@ -1,0 +1,1 @@
+noise_1: N=1,000 (smoke). AUROC higher is better; AURC and risks lower are better. Single-seed results are preliminary.

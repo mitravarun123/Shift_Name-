@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/
+checkpoints/*
+results/predictions/*
+results/*/cache/
+*.joblib
+*.pt
+.DS_Store
+results/**/predictions/

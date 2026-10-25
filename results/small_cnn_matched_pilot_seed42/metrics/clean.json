@@ -1,0 +1,82 @@
+{
+  "experiment": "clean",
+  "classifier": {
+    "accuracy": 0.3442,
+    "nll": 1.761720811021825,
+    "brier": 0.77198734386313,
+    "ece": 0.03547729765053848,
+    "correct": 3442,
+    "incorrect": 6558,
+    "n": 10000
+  },
+  "methods": {
+    "MSP": {
+      "auroc": 0.6352102607776956,
+      "aurc": 0.5482303732413218,
+      "risk_at_50": 0.5732,
+      "risk_at_70": 0.607,
+      "risk_at_80": 0.623,
+      "risk_at_90": 0.64,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Entropy": {
+      "auroc": 0.6293523716060455,
+      "aurc": 0.5598944248155023,
+      "risk_at_50": 0.5738,
+      "risk_at_70": 0.6048571428571429,
+      "risk_at_80": 0.623625,
+      "risk_at_90": 0.6401111111111111,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Distance": {
+      "auroc": 0.5683475337129434,
+      "aurc": 0.5958511678397065,
+      "risk_at_50": 0.6112,
+      "risk_at_70": 0.6307142857142857,
+      "risk_at_80": 0.642625,
+      "risk_at_90": 0.6521111111111111,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Combined": {
+      "auroc": 0.6509378435021944,
+      "aurc": 0.5400025195375349,
+      "risk_at_50": 0.5556,
+      "risk_at_70": 0.5988571428571429,
+      "risk_at_80": 0.619625,
+      "risk_at_90": 0.6378888888888888,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    }
+  },
+  "error_probability": {
+    "brier": 0.2127420195893871,
+    "ece": 0.032671728762683754
+  },
+  "timing": {
+    "forward_ms_per_image": 0.4126201285980642,
+    "extraction_seconds": 5.958643125020899,
+    "all_scores_ms_per_image": 0.0016258417046628893
+  },
+  "preliminary": true,
+  "smoke": false,
+  "architecture": "small_cnn",
+  "scope": "cpu_pilot",
+  "training_examples": 5000,
+  "target_risk": 0.1,
+  "min_accepted": 100
+}

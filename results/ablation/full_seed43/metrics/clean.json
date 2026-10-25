@@ -1,0 +1,92 @@
+{
+  "experiment": "clean",
+  "classifier": {
+    "accuracy": 0.7229,
+    "nll": 0.8096554393520602,
+    "brier": 0.384689811786036,
+    "ece": 0.02178844222113656,
+    "correct": 7229,
+    "incorrect": 2771,
+    "n": 10000
+  },
+  "methods": {
+    "MSP": {
+      "auroc": 0.8055402477660375,
+      "aurc": 0.10669489535241392,
+      "risk_at_50": 0.0916,
+      "risk_at_70": 0.15885714285714286,
+      "risk_at_80": 0.19575,
+      "risk_at_90": 0.23566666666666666,
+      "oracle_coverage_at_target_risk": 0.5264,
+      "validation_threshold": 0.24386526501534533,
+      "threshold_coverage": 0.5325,
+      "threshold_risk": 0.10178403755868545,
+      "threshold_accepted": 5325
+    },
+    "Entropy": {
+      "auroc": 0.80037464882289,
+      "aurc": 0.10818213560900133,
+      "risk_at_50": 0.093,
+      "risk_at_70": 0.16314285714285715,
+      "risk_at_80": 0.200875,
+      "risk_at_90": 0.23844444444444443,
+      "oracle_coverage_at_target_risk": 0.5201,
+      "validation_threshold": 0.734273963335372,
+      "threshold_coverage": 0.5297,
+      "threshold_risk": 0.10383235793845573,
+      "threshold_accepted": 5297
+    },
+    "Distance": {
+      "auroc": 0.5496970056099977,
+      "aurc": 0.23489623863192838,
+      "risk_at_50": 0.2446,
+      "risk_at_70": 0.2661428571428571,
+      "risk_at_80": 0.2725,
+      "risk_at_90": 0.27855555555555556,
+      "oracle_coverage_at_target_risk": 0.0201,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Combined": {
+      "auroc": 0.8039910423347479,
+      "aurc": 0.10695427960949455,
+      "risk_at_50": 0.093,
+      "risk_at_70": 0.16157142857142856,
+      "risk_at_80": 0.198625,
+      "risk_at_90": 0.2371111111111111,
+      "oracle_coverage_at_target_risk": 0.5237,
+      "validation_threshold": 0.22494758167980206,
+      "threshold_coverage": 0.5366,
+      "threshold_risk": 0.10249720462169214,
+      "threshold_accepted": 5366
+    },
+    "MSP+Entropy": {
+      "auroc": 0.8040274349090852,
+      "aurc": 0.10707814691871906,
+      "risk_at_50": 0.0932,
+      "risk_at_70": 0.16142857142857142,
+      "risk_at_80": 0.19825,
+      "risk_at_90": 0.23644444444444446,
+      "oracle_coverage_at_target_risk": 0.5235,
+      "validation_threshold": 0.22925282452242457,
+      "threshold_coverage": 0.5412,
+      "threshold_risk": 0.10458240946045824,
+      "threshold_accepted": 5412
+    }
+  },
+  "error_probability": {
+    "brier": 0.1571845322230218,
+    "ece": 0.04019463919824025
+  },
+  "timing": {
+    "forward_ms_per_image": 0.25020926679717376,
+    "extraction_seconds": 3.8944967089919373,
+    "all_scores_ms_per_image": 0.00278539169812575
+  },
+  "preliminary": true,
+  "smoke": false,
+  "target_risk": 0.1,
+  "min_accepted": 100
+}

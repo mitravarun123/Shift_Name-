@@ -1,0 +1,30 @@
+protocol: risk_control_v1
+architecture: small_cnn
+scope: smoke
+seed: 42
+device: cpu
+threads: 2
+batch_size: 64
+num_workers: 0
+data_dir: data
+output_dir: results/colab_workflow_smoke
+download: false
+epochs: 2
+learning_rate: 0.001
+minimum_learning_rate: 0.00001
+weight_decay: 0.0001
+selection_n: 200
+reference_n: 200
+fit_n: 200
+calibration_n: 200
+train_limit: 1000
+test_limit: 1000
+calibration_budgets: [100, 200]
+risk_targets: [0.05, 0.10]
+risk_delta: 0.05
+candidate_grid_size: 11
+min_calibration_accepted: 20
+figure_dpi: 600
+corruptions: []
+width: 16
+feature_dim: 64

@@ -1,0 +1,15 @@
+{
+  "batch_size": 16,
+  "threads": 4,
+  "parameters": 11173962,
+  "feature_dim": 512,
+  "batch_seconds": [
+    1.4691719999536872,
+    0.9257357500027865,
+    0.9245788749540225,
+    0.981476999935694
+  ],
+  "estimated_epoch_compute_seconds": 2655.276613607537,
+  "peak_rss_mib": 461.65625,
+  "note": "Synthetic throughput benchmark only, concurrent with small-CNN replication; not dataset results."
+}

@@ -1,0 +1,1 @@
+SMOKE TEST — Small CNN · clean · N=1,000 · seed 42. Lower risk at equal coverage is better. AURC is mean prefix risk; exact score ties use expected random-order prefix risk. Axes include all prefix risks; very small accepted counts have unstable empirical risk. One seed; no across-seed confidence intervals are shown.

@@ -1,0 +1,1 @@
+brightness_1: N=1,000 (smoke). Ascending error scores; ties use expected random-order risk. AURC is mean prefix risk.

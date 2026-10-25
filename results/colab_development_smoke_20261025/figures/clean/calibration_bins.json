@@ -1,0 +1,100 @@
+[
+  {
+    "series": "Classifier confidence",
+    "bin": 1,
+    "count": 277,
+    "mean_probability": 0.12439278847586818,
+    "outcome_rate": 0.15162454873646208
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 2,
+    "count": 634,
+    "mean_probability": 0.1580938360367247,
+    "outcome_rate": 0.31703470031545744
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 3,
+    "count": 83,
+    "mean_probability": 0.22110324037752355,
+    "outcome_rate": 0.3132530120481928
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 4,
+    "count": 6,
+    "mean_probability": 0.28574543475493597,
+    "outcome_rate": 0.3333333333333333
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 9,
+    "count": 17,
+    "mean_probability": 0.6478525842881581,
+    "outcome_rate": 0.47058823529411764
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 10,
+    "count": 86,
+    "mean_probability": 0.7087169156450365,
+    "outcome_rate": 0.6395348837209303
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 11,
+    "count": 431,
+    "mean_probability": 0.7733304382710574,
+    "outcome_rate": 0.6450116009280742
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 12,
+    "count": 466,
+    "mean_probability": 0.8209432544441997,
+    "outcome_rate": 0.8326180257510729
+  },
+  {
+    "series": "Error: all three",
+    "bin": 9,
+    "count": 20,
+    "mean_probability": 0.648883542141208,
+    "outcome_rate": 0.45
+  },
+  {
+    "series": "Error: all three",
+    "bin": 10,
+    "count": 127,
+    "mean_probability": 0.7086033280221801,
+    "outcome_rate": 0.6220472440944882
+  },
+  {
+    "series": "Error: all three",
+    "bin": 11,
+    "count": 431,
+    "mean_probability": 0.7729232598863548,
+    "outcome_rate": 0.6705336426914154
+  },
+  {
+    "series": "Error: all three",
+    "bin": 12,
+    "count": 408,
+    "mean_probability": 0.82291618975271,
+    "outcome_rate": 0.8357843137254902
+  },
+  {
+    "series": "Error: all three",
+    "bin": 13,
+    "count": 11,
+    "mean_probability": 0.8831676520480354,
+    "outcome_rate": 0.8181818181818182
+  },
+  {
+    "series": "Error: all three",
+    "bin": 14,
+    "count": 3,
+    "mean_probability": 0.9572866553142637,
+    "outcome_rate": 0.6666666666666666
+  }
+]

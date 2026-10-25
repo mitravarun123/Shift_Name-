@@ -1,0 +1,1 @@
+contrast_1: N=1,000 (smoke). Risk at ceil(coverage × N) accepted examples; same held-out sample for all methods.

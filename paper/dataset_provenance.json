@@ -1,0 +1,6 @@
+{
+  "source": "https://huggingface.co/datasets/MIT-OL-AI-D/cifar-10-python/resolve/main/cifar-10-python.tar.gz",
+  "md5": "c58f30108f718f92721af3b95e74349a",
+  "archive_bytes": 170498071,
+  "note": "Manual mirror retrieval; exact original archive checksum verified before torchvision extraction."
+}

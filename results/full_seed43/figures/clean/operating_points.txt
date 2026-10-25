@@ -1,0 +1,1 @@
+clean: N=10,000 (one seed). Risk at ceil(coverage × N) accepted examples; same held-out sample for all methods.

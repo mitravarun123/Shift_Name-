@@ -1,0 +1,1 @@
+Independent training seeds; C=1 frozen-classifier logistic ablations. Error bars are sample SD, not confidence intervals. Combined means all three signals.

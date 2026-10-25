@@ -1,0 +1,1 @@
+SMOKE TEST — Small CNN · clean · N=1,000 · seed 42. 15 equal-width bins on [0,1], last includes 1; empty bins omitted. Marker area increases with bin sample count (counts in calibration_bins.json). Sparse bins can fluctuate. Classifier outcome is correctness; detector outcomes are errors. One seed; no across-seed confidence intervals are shown.

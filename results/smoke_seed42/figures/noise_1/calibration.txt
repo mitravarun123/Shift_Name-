@@ -1,0 +1,1 @@
+noise_1: N=1,000 (smoke). 15 equal-width bins on [0,1], final bin includes 1; empty bins omitted. No test calibration fitting.

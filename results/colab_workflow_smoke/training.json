@@ -1,0 +1,25 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.2969793548583985,
+      "selection_accuracy": 0.18,
+      "learning_rate": 0.001,
+      "seconds": 0.7608142079843674
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.227714427947998,
+      "selection_accuracy": 0.245,
+      "learning_rate": 0.000505,
+      "seconds": 0.6696133329824079
+    }
+  ],
+  "training_seconds": 1.4304275409667753,
+  "best_selection_accuracy": 0.245,
+  "best_epoch": 2,
+  "epochs_completed": 2,
+  "training_complete": true,
+  "parameters": 40682,
+  "timing_note": "Compute/validation/best-save wall time; last-checkpoint upload overhead excluded"
+}

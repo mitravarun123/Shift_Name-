@@ -1,0 +1,1 @@
+Same 10,000 official test images for each run. Bands are ± sample SD across training seeds; y-axis limited to [0,0.5] for visibility. No test threshold fitting.

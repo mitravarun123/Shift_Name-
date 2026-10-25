@@ -1,0 +1,79 @@
+{
+  "experiment": "noise_1",
+  "classifier": {
+    "accuracy": 0.213,
+    "nll": 2.1002912540238987,
+    "brier": 0.8567292072463717,
+    "ece": 0.016246446787393665,
+    "correct": 213,
+    "incorrect": 787,
+    "n": 1000
+  },
+  "methods": {
+    "MSP": {
+      "auroc": 0.6218420220603588,
+      "aurc": 0.7163421898884826,
+      "risk_at_50": 0.726,
+      "risk_at_70": 0.7585714285714286,
+      "risk_at_80": 0.76125,
+      "risk_at_90": 0.7744444444444445,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Entropy": {
+      "auroc": 0.6086821649933485,
+      "aurc": 0.7191845317771044,
+      "risk_at_50": 0.736,
+      "risk_at_70": 0.7585714285714286,
+      "risk_at_80": 0.77,
+      "risk_at_90": 0.7733333333333333,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Distance": {
+      "auroc": 0.5450722121803246,
+      "aurc": 0.7573479630957609,
+      "risk_at_50": 0.756,
+      "risk_at_70": 0.7785714285714286,
+      "risk_at_80": 0.785,
+      "risk_at_90": 0.7844444444444445,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Combined": {
+      "auroc": 0.6433595218068258,
+      "aurc": 0.7092442927738851,
+      "risk_at_50": 0.724,
+      "risk_at_70": 0.7471428571428571,
+      "risk_at_80": 0.75625,
+      "risk_at_90": 0.7688888888888888,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    }
+  },
+  "error_probability": {
+    "brier": 0.16807344191117887,
+    "ece": 0.07348860906284324
+  },
+  "timing": {
+    "forward_ms_per_image": 0.26052375161089003,
+    "extraction_seconds": 0.5940759170334786,
+    "all_scores_ms_per_image": 0.002579666906967759
+  },
+  "preliminary": true,
+  "smoke": true,
+  "target_risk": 0.1,
+  "min_accepted": 100
+}

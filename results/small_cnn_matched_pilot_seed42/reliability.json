@@ -1,0 +1,48 @@
+{
+  "centroid_counts": [
+    39,
+    6,
+    14,
+    32,
+    16,
+    33,
+    36,
+    43,
+    41,
+    70
+  ],
+  "fallback_classes": [],
+  "feature_names": [
+    "MSP",
+    "entropy",
+    "distance"
+  ],
+  "feature_mean": [
+    0.33902194250940054,
+    1.7829109050069225,
+    0.45615310835051726
+  ],
+  "feature_scale": [
+    0.14629254618666218,
+    0.3653995950152008,
+    0.21532787676577197
+  ],
+  "standardized_coefficients": [
+    -0.3324019783753206,
+    0.07151163357504572,
+    0.2270814272903611
+  ],
+  "intercept": 0.5551790289447948,
+  "thresholds": {
+    "MSP": null,
+    "Entropy": null,
+    "Distance": null,
+    "Combined": null
+  },
+  "calibration_n": 1000,
+  "fit_n": 1000,
+  "calibration_metrics": {
+    "brier": 0.21331981797608285,
+    "ece": 0.028193388476790395
+  }
+}

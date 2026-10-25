@@ -1,0 +1,14 @@
+{
+  "python": "3.10.9",
+  "platform": "macOS-13.3-arm64-arm-64bit",
+  "torch": "2.11.0",
+  "torchvision": "0.16.1",
+  "numpy": "1.26.4",
+  "scikit-learn": "1.6.1",
+  "matplotlib": "3.8.0",
+  "PyYAML": "6.0.3",
+  "scipy": "1.15.3",
+  "cuda": null,
+  "gpu": null,
+  "training_source_sha256": "9c71776fe885696960399f55563b8ec20869efcdad226c9c3cc1b7cd179d4ee9"
+}

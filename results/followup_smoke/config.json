@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 64,
+  "num_workers": 0,
+  "data_dir": "data",
+  "output_dir": "results/followup_smoke",
+  "download": true,
+  "val_size": 5000,
+  "train_limit": 1000,
+  "val_limit": 1000,
+  "test_limit": 1000,
+  "epochs": 2,
+  "patience": 2,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "width": 16,
+  "feature_dim": 64,
+  "target_risk": 0.1,
+  "min_accepted": 100,
+  "corruptions": []
+}

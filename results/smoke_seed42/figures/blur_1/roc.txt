@@ -1,0 +1,1 @@
+blur_1: N=1,000 (smoke). Positive class: classifier error. Labels give AUROC. Same examples for all methods.

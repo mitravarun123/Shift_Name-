@@ -1,0 +1,1 @@
+TPR interpolated at a fixed FPR grid; bands ± sample SD across seeds. Legend reports mean per-seed AUROC, not integration of the displayed interpolation.

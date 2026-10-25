@@ -1,0 +1,1 @@
+SMOKE TEST — Small CNN · clean · N=1,000 · seed 42. Positive class: incorrect prediction. Legend includes error AUROC; higher is better. One seed; no across-seed confidence intervals are shown.

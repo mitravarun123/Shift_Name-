@@ -1,0 +1,20 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.004610268783569,
+      "selection_accuracy": 0.3445,
+      "seconds": 234.4399715840118
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7579506172180175,
+      "selection_accuracy": 0.3845,
+      "seconds": 231.17141725006513
+    }
+  ],
+  "training_seconds": 466.141875041998,
+  "best_selection_accuracy": 0.3845,
+  "epochs_completed": 2,
+  "parameters": 11173962
+}

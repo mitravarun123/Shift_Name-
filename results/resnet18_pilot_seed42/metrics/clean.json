@@ -1,0 +1,82 @@
+{
+  "experiment": "clean",
+  "classifier": {
+    "accuracy": 0.3879,
+    "nll": 1.6409814292524287,
+    "brier": 0.741385346837917,
+    "ece": 0.056532343523791655,
+    "correct": 3879,
+    "incorrect": 6121,
+    "n": 10000
+  },
+  "methods": {
+    "MSP": {
+      "auroc": 0.6465877047977922,
+      "aurc": 0.49016938321884784,
+      "risk_at_50": 0.513,
+      "risk_at_70": 0.5541428571428572,
+      "risk_at_80": 0.569125,
+      "risk_at_90": 0.5901111111111111,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Entropy": {
+      "auroc": 0.6377570671445434,
+      "aurc": 0.49731428643797665,
+      "risk_at_50": 0.5224,
+      "risk_at_70": 0.554,
+      "risk_at_80": 0.573625,
+      "risk_at_90": 0.5924444444444444,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Distance": {
+      "auroc": 0.5635975095183458,
+      "aurc": 0.5555452922260924,
+      "risk_at_50": 0.564,
+      "risk_at_70": 0.5881428571428572,
+      "risk_at_80": 0.60075,
+      "risk_at_90": 0.6101111111111112,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    },
+    "Combined": {
+      "auroc": 0.6638131950917306,
+      "aurc": 0.4792505437600427,
+      "risk_at_50": 0.4984,
+      "risk_at_70": 0.5495714285714286,
+      "risk_at_80": 0.5685,
+      "risk_at_90": 0.5916666666666667,
+      "oracle_coverage_at_target_risk": null,
+      "validation_threshold": null,
+      "threshold_coverage": 0.0,
+      "threshold_risk": null,
+      "threshold_accepted": 0
+    }
+  },
+  "error_probability": {
+    "brier": 0.21896311066642948,
+    "ece": 0.024692657089610198
+  },
+  "timing": {
+    "forward_ms_per_image": 26.199146032193674,
+    "extraction_seconds": 270.16561145801097,
+    "all_scores_ms_per_image": 0.018547454196959735
+  },
+  "preliminary": true,
+  "smoke": false,
+  "architecture": "resnet18",
+  "scope": "cpu_pilot",
+  "training_examples": 5000,
+  "target_risk": 0.1,
+  "min_accepted": 100
+}
