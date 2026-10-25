@@ -1,0 +1,1 @@
+ResNet-18 · clean · N=10,000 · seed 42. Candidate grids are fixed using fitting data. A single Bonferroni family covers every displayed method, threshold, and budget. Zero coverage may indicate no certificate; see the annotated heatmap/CSV. Lines connect separate prespecified budget evaluations; no across-seed error bars. One seed; no across-seed confidence intervals are shown.

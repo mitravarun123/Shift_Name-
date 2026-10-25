@@ -1,0 +1,3501 @@
+{
+  "delta": 0.05,
+  "simultaneous_confidence": 0.95,
+  "family_size": 315,
+  "per_rule_delta": 0.00015873015873015873,
+  "targets": [
+    0.05,
+    0.1
+  ],
+  "budgets": [
+    250,
+    500,
+    1000
+  ],
+  "selections": [
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 3.601334651893719e-05,
+      "calibration_accepted": 178,
+      "calibration_errors": 0,
+      "calibration_risk": 0.0,
+      "calibration_upper_risk": 0.047959573619171816
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.018714084258233545,
+      "calibration_accepted": 226,
+      "calibration_errors": 7,
+      "calibration_risk": 0.030973451327433628,
+      "calibration_upper_risk": 0.0954216071286823
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.0004205223880520723,
+      "calibration_accepted": 178,
+      "calibration_errors": 0,
+      "calibration_risk": 0.0,
+      "calibration_upper_risk": 0.047959573619171816
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.09624812005360142,
+      "calibration_accepted": 225,
+      "calibration_errors": 6,
+      "calibration_risk": 0.02666666666666667,
+      "calibration_upper_risk": 0.0888637670689179
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "target_risk": 0.05,
+      "status": "not_certified",
+      "threshold": null,
+      "calibration_accepted": 0,
+      "calibration_errors": 0,
+      "calibration_risk": null,
+      "calibration_upper_risk": null
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.6470203963939853,
+      "calibration_accepted": 185,
+      "calibration_errors": 3,
+      "calibration_risk": 0.016216216216216217,
+      "calibration_upper_risk": 0.08025898388858524
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.03516046690403344,
+      "calibration_accepted": 178,
+      "calibration_errors": 0,
+      "calibration_risk": 0.0,
+      "calibration_upper_risk": 0.047959573619171816
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.08052855318578546,
+      "calibration_accepted": 225,
+      "calibration_errors": 6,
+      "calibration_risk": 0.02666666666666667,
+      "calibration_upper_risk": 0.0888637670689179
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "target_risk": 0.05,
+      "status": "not_certified",
+      "threshold": null,
+      "calibration_accepted": 0,
+      "calibration_errors": 0,
+      "calibration_risk": null,
+      "calibration_upper_risk": null
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.1268842566174705,
+      "calibration_accepted": 224,
+      "calibration_errors": 7,
+      "calibration_risk": 0.03125,
+      "calibration_upper_risk": 0.09624436889911872
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.0008761161557837353,
+      "calibration_accepted": 401,
+      "calibration_errors": 4,
+      "calibration_risk": 0.00997506234413965,
+      "calibration_upper_risk": 0.04217833367638934
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.11325886973202533,
+      "calibration_accepted": 469,
+      "calibration_errors": 22,
+      "calibration_risk": 0.046908315565031986,
+      "calibration_upper_risk": 0.09232531331846526
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.007655914578222626,
+      "calibration_accepted": 401,
+      "calibration_errors": 4,
+      "calibration_risk": 0.00997506234413965,
+      "calibration_upper_risk": 0.04217833367638934
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.4009527840046094,
+      "calibration_accepted": 468,
+      "calibration_errors": 22,
+      "calibration_risk": 0.04700854700854701,
+      "calibration_upper_risk": 0.0925178060135553
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "target_risk": 0.05,
+      "status": "not_certified",
+      "threshold": null,
+      "calibration_accepted": 0,
+      "calibration_errors": 0,
+      "calibration_risk": null,
+      "calibration_upper_risk": null
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.7183597091050783,
+      "calibration_accepted": 416,
+      "calibration_errors": 18,
+      "calibration_risk": 0.04326923076923077,
+      "calibration_upper_risk": 0.09092191456614836
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.037681432826992475,
+      "calibration_accepted": 401,
+      "calibration_errors": 4,
+      "calibration_risk": 0.00997506234413965,
+      "calibration_upper_risk": 0.04217833367638934
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.40115498877682604,
+      "calibration_accepted": 468,
+      "calibration_errors": 22,
+      "calibration_risk": 0.04700854700854701,
+      "calibration_upper_risk": 0.0925178060135553
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.04140313671048927,
+      "calibration_accepted": 345,
+      "calibration_errors": 4,
+      "calibration_risk": 0.011594202898550725,
+      "calibration_upper_risk": 0.04889403860417266
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.4029242137406162,
+      "calibration_accepted": 466,
+      "calibration_errors": 22,
+      "calibration_risk": 0.04721030042918455,
+      "calibration_upper_risk": 0.09290520825809064
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.004556364507987031,
+      "calibration_accepted": 845,
+      "calibration_errors": 15,
+      "calibration_risk": 0.01775147928994083,
+      "calibration_upper_risk": 0.04035994313886843
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.11325886973202533,
+      "calibration_accepted": 935,
+      "calibration_errors": 47,
+      "calibration_risk": 0.05026737967914439,
+      "calibration_upper_risk": 0.08103589138007847
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.030726840096332073,
+      "calibration_accepted": 846,
+      "calibration_errors": 15,
+      "calibration_risk": 0.01773049645390071,
+      "calibration_upper_risk": 0.04031278882692659
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.4009527840046094,
+      "calibration_accepted": 938,
+      "calibration_errors": 50,
+      "calibration_risk": 0.053304904051172705,
+      "calibration_upper_risk": 0.08469550481983348
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.6034306648248888,
+      "calibration_accepted": 622,
+      "calibration_errors": 11,
+      "calibration_risk": 0.017684887459807074,
+      "calibration_upper_risk": 0.045306465040431176
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.7519866292909893,
+      "calibration_accepted": 887,
+      "calibration_errors": 57,
+      "calibration_risk": 0.06426155580608793,
+      "calibration_upper_risk": 0.09902176809192031
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.04646834558066622,
+      "calibration_accepted": 846,
+      "calibration_errors": 15,
+      "calibration_risk": 0.01773049645390071,
+      "calibration_upper_risk": 0.04031278882692659
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.40115498877682604,
+      "calibration_accepted": 936,
+      "calibration_errors": 49,
+      "calibration_risk": 0.05235042735042735,
+      "calibration_upper_risk": 0.08356882044135053
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "target_risk": 0.05,
+      "status": "certified",
+      "threshold": 0.06397564308297086,
+      "calibration_accepted": 799,
+      "calibration_errors": 17,
+      "calibration_risk": 0.02127659574468085,
+      "calibration_upper_risk": 0.04617685424591949
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "target_risk": 0.1,
+      "status": "certified",
+      "threshold": 0.4029242137406162,
+      "calibration_accepted": 929,
+      "calibration_errors": 47,
+      "calibration_risk": 0.05059203444564048,
+      "calibration_upper_risk": 0.08155064480984821
+    }
+  ],
+  "candidate_bounds": [
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 0.0,
+      "accepted": 4,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.016,
+      "upper_risk": 0.8877555535138854
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 1.374456104485944e-14,
+      "accepted": 12,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.048,
+      "upper_risk": 0.5176211169816878
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 3.535616244221274e-13,
+      "accepted": 27,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.108,
+      "upper_risk": 0.2767579252759818
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 3.325606456883187e-12,
+      "accepted": 35,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.14,
+      "upper_risk": 0.22116149785618278
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 1.8393597756016794e-11,
+      "accepted": 53,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.212,
+      "upper_risk": 0.1521591662334511
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 7.024686388135137e-11,
+      "accepted": 65,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.26,
+      "upper_risk": 0.12592518503554817
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 3.307920160011691e-10,
+      "accepted": 75,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.3,
+      "upper_risk": 0.11009811641704496
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 1.62735833697525e-09,
+      "accepted": 87,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.348,
+      "upper_risk": 0.09566483438293631
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 7.525518896933651e-09,
+      "accepted": 106,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.424,
+      "upper_risk": 0.07921727114017342
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 2.9309943644362246e-08,
+      "accepted": 116,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.464,
+      "upper_risk": 0.07264276572519365
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 1.4082621663247252e-07,
+      "accepted": 130,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.52,
+      "upper_risk": 0.06508031630281104
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 6.092133566171229e-07,
+      "accepted": 149,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.596,
+      "upper_risk": 0.057023064968995014
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 2.2413413444777343e-06,
+      "accepted": 163,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.652,
+      "upper_risk": 0.052255741166690954
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 8.473173171885675e-06,
+      "accepted": 167,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.668,
+      "upper_risk": 0.051036610748998915
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 3.601334651893719e-05,
+      "accepted": 178,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.712,
+      "upper_risk": 0.047959573619171816
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 0.0001989076236827425,
+      "accepted": 190,
+      "errors": 1,
+      "empirical_risk": 0.005263157894736842,
+      "coverage": 0.76,
+      "upper_risk": 0.05766057829123349
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 0.0008761161557837353,
+      "accepted": 203,
+      "errors": 2,
+      "empirical_risk": 0.009852216748768473,
+      "coverage": 0.812,
+      "upper_risk": 0.06415644886430887
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 0.004556364507987031,
+      "accepted": 212,
+      "errors": 3,
+      "empirical_risk": 0.014150943396226415,
+      "coverage": 0.848,
+      "upper_risk": 0.07033473633471914
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 0.018714084258233545,
+      "accepted": 226,
+      "errors": 7,
+      "empirical_risk": 0.030973451327433628,
+      "coverage": 0.904,
+      "upper_risk": 0.0954216071286823
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 0.11325886973202533,
+      "accepted": 236,
+      "errors": 9,
+      "empirical_risk": 0.038135593220338986,
+      "coverage": 0.944,
+      "upper_risk": 0.10433788581460099
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 250,
+      "threshold": 0.5498298339181474,
+      "accepted": 250,
+      "errors": 16,
+      "empirical_risk": 0.064,
+      "coverage": 1.0,
+      "upper_risk": 0.13809595335782712
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 6.1453394723151175e-18,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 4.62422908525098e-13,
+      "accepted": 12,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.048,
+      "upper_risk": 0.5176211169816878
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 1.0595971902695548e-11,
+      "accepted": 27,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.108,
+      "upper_risk": 0.2767579252759818
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 9.158649959483516e-11,
+      "accepted": 35,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.14,
+      "upper_risk": 0.22116149785618278
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 4.947227735321054e-10,
+      "accepted": 53,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.212,
+      "upper_risk": 0.1521591662334511
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 1.739366111298268e-09,
+      "accepted": 65,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.26,
+      "upper_risk": 0.12592518503554817
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 7.677347108325875e-09,
+      "accepted": 75,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.3,
+      "upper_risk": 0.11009811641704496
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 3.5057543574233306e-08,
+      "accepted": 87,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.348,
+      "upper_risk": 0.09566483438293631
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 1.5014226291291778e-07,
+      "accepted": 106,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.424,
+      "upper_risk": 0.07921727114017342
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 5.521429628172833e-07,
+      "accepted": 116,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.464,
+      "upper_risk": 0.07264276572519365
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 2.412303179656461e-06,
+      "accepted": 129,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.516,
+      "upper_risk": 0.06556790303491805
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 9.612324248762472e-06,
+      "accepted": 149,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.596,
+      "upper_risk": 0.057023064968995014
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 3.181695589448248e-05,
+      "accepted": 162,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.648,
+      "upper_risk": 0.05256967672972183
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 0.00010832614344301549,
+      "accepted": 167,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.668,
+      "upper_risk": 0.051036610748998915
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 0.0004205223880520723,
+      "accepted": 178,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.712,
+      "upper_risk": 0.047959573619171816
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 0.0019445424861881644,
+      "accepted": 190,
+      "errors": 1,
+      "empirical_risk": 0.005263157894736842,
+      "coverage": 0.76,
+      "upper_risk": 0.05766057829123349
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 0.007655914578222626,
+      "accepted": 203,
+      "errors": 2,
+      "empirical_risk": 0.009852216748768473,
+      "coverage": 0.812,
+      "upper_risk": 0.06415644886430887
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 0.030726840096332073,
+      "accepted": 213,
+      "errors": 3,
+      "empirical_risk": 0.014084507042253521,
+      "coverage": 0.852,
+      "upper_risk": 0.07001407178387786
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 0.09624812005360142,
+      "accepted": 225,
+      "errors": 6,
+      "empirical_risk": 0.02666666666666667,
+      "coverage": 0.9,
+      "upper_risk": 0.0888637670689179
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 0.4009527840046094,
+      "accepted": 235,
+      "errors": 9,
+      "empirical_risk": 0.03829787234042553,
+      "coverage": 0.94,
+      "upper_risk": 0.10476618081162611
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 250,
+      "threshold": 1.1742599739423296,
+      "accepted": 250,
+      "errors": 16,
+      "empirical_risk": 0.064,
+      "coverage": 1.0,
+      "upper_risk": 0.13809595335782712
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.2572001690190055,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.3705351104023562,
+      "accepted": 15,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.06,
+      "upper_risk": 0.4419017894355197
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.4012857555512141,
+      "accepted": 25,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.1,
+      "upper_risk": 0.29526412833912896
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.42735525260577856,
+      "accepted": 34,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.136,
+      "upper_risk": 0.22686614753110176
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.4521196341563786,
+      "accepted": 49,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.196,
+      "upper_risk": 0.1635067558740112
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.47045938789238056,
+      "accepted": 60,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.24,
+      "upper_risk": 0.13567384039734307
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.4911994486451756,
+      "accepted": 80,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.32,
+      "upper_risk": 0.10358679982959407
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.5054894635356194,
+      "accepted": 91,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.364,
+      "upper_risk": 0.0916588170562973
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.5273101932783872,
+      "accepted": 114,
+      "errors": 1,
+      "empirical_risk": 0.008771929824561403,
+      "coverage": 0.456,
+      "upper_risk": 0.09440243987341244
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.5436914705400144,
+      "accepted": 122,
+      "errors": 1,
+      "empirical_risk": 0.00819672131147541,
+      "coverage": 0.488,
+      "upper_risk": 0.08846988905308766
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.5638415544749162,
+      "accepted": 136,
+      "errors": 3,
+      "empirical_risk": 0.022058823529411766,
+      "coverage": 0.544,
+      "upper_risk": 0.10787595698750188
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.5874062497402679,
+      "accepted": 158,
+      "errors": 3,
+      "empirical_risk": 0.0189873417721519,
+      "coverage": 0.632,
+      "upper_risk": 0.09344160195055441
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.6034306648248888,
+      "accepted": 166,
+      "errors": 3,
+      "empirical_risk": 0.018072289156626505,
+      "coverage": 0.664,
+      "upper_risk": 0.08910541054905614
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.6278572630338566,
+      "accepted": 176,
+      "errors": 3,
+      "empirical_risk": 0.017045454545454544,
+      "coverage": 0.704,
+      "upper_risk": 0.0842197649481272
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.6470203963939853,
+      "accepted": 185,
+      "errors": 3,
+      "empirical_risk": 0.016216216216216217,
+      "coverage": 0.74,
+      "upper_risk": 0.08025898388858524
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.667390590246559,
+      "accepted": 192,
+      "errors": 6,
+      "empirical_risk": 0.03125,
+      "coverage": 0.768,
+      "upper_risk": 0.10355465730203964
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.6891525153703352,
+      "accepted": 201,
+      "errors": 9,
+      "empirical_risk": 0.04477611940298507,
+      "coverage": 0.804,
+      "upper_risk": 0.12175703261655622
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.7183597091050783,
+      "accepted": 213,
+      "errors": 11,
+      "empirical_risk": 0.051643192488262914,
+      "coverage": 0.852,
+      "upper_risk": 0.12873414714109596
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.7519866292909893,
+      "accepted": 231,
+      "errors": 15,
+      "empirical_risk": 0.06493506493506493,
+      "coverage": 0.924,
+      "upper_risk": 0.14312741946774146
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 0.8092180679509992,
+      "accepted": 243,
+      "errors": 16,
+      "empirical_risk": 0.06584362139917696,
+      "coverage": 0.972,
+      "upper_risk": 0.1419078113653141
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 250,
+      "threshold": 1.434413514397895,
+      "accepted": 250,
+      "errors": 16,
+      "empirical_risk": 0.064,
+      "coverage": 1.0,
+      "upper_risk": 0.13809595335782712
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501258470516597,
+      "accepted": 1,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.004,
+      "upper_risk": 0.9998412698412699
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501258470533801,
+      "accepted": 12,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.048,
+      "upper_risk": 0.5176211169816878
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.035012584709096746,
+      "accepted": 27,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.108,
+      "upper_risk": 0.2767579252759818
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501258473901167,
+      "accepted": 35,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.14,
+      "upper_risk": 0.22116149785618278
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.0350125848878268,
+      "accepted": 53,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.212,
+      "upper_risk": 0.1521591662334511
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501258534524994,
+      "accepted": 65,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.26,
+      "upper_risk": 0.12592518503554817
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501258752380228,
+      "accepted": 75,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.3,
+      "upper_risk": 0.11009811641704496
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501259752993598,
+      "accepted": 87,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.348,
+      "upper_risk": 0.09566483438293631
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501263940113178,
+      "accepted": 106,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.424,
+      "upper_risk": 0.07921727114017342
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501278522741476,
+      "accepted": 116,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.464,
+      "upper_risk": 0.07264276572519365
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.0350134559257544,
+      "accepted": 129,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.516,
+      "upper_risk": 0.06556790303491805
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03501603066051997,
+      "accepted": 149,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.596,
+      "upper_risk": 0.057023064968995014
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.035023919683458374,
+      "accepted": 162,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.648,
+      "upper_risk": 0.05256967672972183
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03505090943902387,
+      "accepted": 167,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.668,
+      "upper_risk": 0.051036610748998915
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03516046690403344,
+      "accepted": 178,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.712,
+      "upper_risk": 0.047959573619171816
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.03569094113306833,
+      "accepted": 190,
+      "errors": 1,
+      "empirical_risk": 0.005263157894736842,
+      "coverage": 0.76,
+      "upper_risk": 0.05766057829123349
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.037681432826992475,
+      "accepted": 203,
+      "errors": 2,
+      "empirical_risk": 0.009852216748768473,
+      "coverage": 0.812,
+      "upper_risk": 0.06415644886430887
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.04646834558066622,
+      "accepted": 213,
+      "errors": 3,
+      "empirical_risk": 0.014084507042253521,
+      "coverage": 0.852,
+      "upper_risk": 0.07001407178387786
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.08052855318578546,
+      "accepted": 225,
+      "errors": 6,
+      "empirical_risk": 0.02666666666666667,
+      "coverage": 0.9,
+      "upper_risk": 0.0888637670689179
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.40115498877682604,
+      "accepted": 235,
+      "errors": 9,
+      "empirical_risk": 0.03829787234042553,
+      "coverage": 0.94,
+      "upper_risk": 0.10476618081162611
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 250,
+      "threshold": 0.9946361466344967,
+      "accepted": 250,
+      "errors": 16,
+      "empirical_risk": 0.064,
+      "coverage": 1.0,
+      "upper_risk": 0.13809595335782712
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.008382226249508977,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.013491694547106976,
+      "accepted": 15,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.06,
+      "upper_risk": 0.4419017894355197
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.0153442460744119,
+      "accepted": 25,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.1,
+      "upper_risk": 0.29526412833912896
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.01710909452058443,
+      "accepted": 34,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.136,
+      "upper_risk": 0.22686614753110176
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.01901066236896882,
+      "accepted": 49,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.196,
+      "upper_risk": 0.1635067558740112
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.020528925575474255,
+      "accepted": 60,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.24,
+      "upper_risk": 0.13567384039734307
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.022352745909479384,
+      "accepted": 80,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.32,
+      "upper_risk": 0.10358679982959407
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.02376237092282532,
+      "accepted": 91,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.364,
+      "upper_risk": 0.0916588170562973
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.02613010387698434,
+      "accepted": 114,
+      "errors": 1,
+      "empirical_risk": 0.008771929824561403,
+      "coverage": 0.456,
+      "upper_risk": 0.09440243987341244
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.02832655217199395,
+      "accepted": 126,
+      "errors": 1,
+      "empirical_risk": 0.007936507936507936,
+      "coverage": 0.504,
+      "upper_risk": 0.08577453018749853
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.03061979462225546,
+      "accepted": 137,
+      "errors": 2,
+      "empirical_risk": 0.014598540145985401,
+      "coverage": 0.548,
+      "upper_risk": 0.0937948478313284
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.03364937670579415,
+      "accepted": 156,
+      "errors": 3,
+      "empirical_risk": 0.019230769230769232,
+      "coverage": 0.624,
+      "upper_risk": 0.09459235395462393
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.0377819406292064,
+      "accepted": 168,
+      "errors": 3,
+      "empirical_risk": 0.017857142857142856,
+      "coverage": 0.672,
+      "upper_risk": 0.08808348329369277
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.04140313671048927,
+      "accepted": 180,
+      "errors": 3,
+      "empirical_risk": 0.016666666666666666,
+      "coverage": 0.72,
+      "upper_risk": 0.08241221725879698
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.04579121530371105,
+      "accepted": 184,
+      "errors": 3,
+      "empirical_risk": 0.016304347826086956,
+      "coverage": 0.736,
+      "upper_risk": 0.08068058671645083
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.05229527779495272,
+      "accepted": 187,
+      "errors": 3,
+      "empirical_risk": 0.016042780748663103,
+      "coverage": 0.748,
+      "upper_risk": 0.07942885344227488
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.06397564308297086,
+      "accepted": 207,
+      "errors": 3,
+      "empirical_risk": 0.014492753623188406,
+      "coverage": 0.828,
+      "upper_risk": 0.07198313210218125
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.07985802074257686,
+      "accepted": 216,
+      "errors": 5,
+      "empirical_risk": 0.023148148148148147,
+      "coverage": 0.864,
+      "upper_risk": 0.08496910205003577
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.1268842566174705,
+      "accepted": 224,
+      "errors": 7,
+      "empirical_risk": 0.03125,
+      "coverage": 0.896,
+      "upper_risk": 0.09624436889911872
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.4029242137406162,
+      "accepted": 234,
+      "errors": 9,
+      "empirical_risk": 0.038461538461538464,
+      "coverage": 0.936,
+      "upper_risk": 0.1051980036334476
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 250,
+      "threshold": 0.9951649817084627,
+      "accepted": 250,
+      "errors": 16,
+      "empirical_risk": 0.064,
+      "coverage": 1.0,
+      "upper_risk": 0.13809595335782712
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 0.0,
+      "accepted": 7,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.014,
+      "upper_risk": 0.7134258160625884
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 1.374456104485944e-14,
+      "accepted": 21,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.042,
+      "upper_risk": 0.34070615476467203
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 3.535616244221274e-13,
+      "accepted": 47,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.094,
+      "upper_risk": 0.16983777631948171
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 3.325606456883187e-12,
+      "accepted": 65,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.13,
+      "upper_risk": 0.12592518503554817
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 1.8393597756016794e-11,
+      "accepted": 94,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.188,
+      "upper_risk": 0.08886761462424227
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 7.024686388135137e-11,
+      "accepted": 113,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.226,
+      "upper_risk": 0.07449766826885282
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 3.307920160011691e-10,
+      "accepted": 128,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.256,
+      "upper_risk": 0.06606284802935421
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 1.62735833697525e-09,
+      "accepted": 157,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.314,
+      "upper_risk": 0.05419767197440495
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 7.525518896933651e-09,
+      "accepted": 189,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.378,
+      "upper_risk": 0.045232408284875604
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 2.9309943644362246e-08,
+      "accepted": 208,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.416,
+      "upper_risk": 0.04118694279117873
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 1.4082621663247252e-07,
+      "accepted": 241,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.482,
+      "upper_risk": 0.035649074857120974
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 6.092133566171229e-07,
+      "accepted": 280,
+      "errors": 1,
+      "empirical_risk": 0.0035714285714285713,
+      "coverage": 0.56,
+      "upper_risk": 0.03946578710147977
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 2.2413413444777343e-06,
+      "accepted": 307,
+      "errors": 1,
+      "empirical_risk": 0.003257328990228013,
+      "coverage": 0.614,
+      "upper_risk": 0.036052621476088155
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 8.473173171885675e-06,
+      "accepted": 331,
+      "errors": 1,
+      "empirical_risk": 0.0030211480362537764,
+      "coverage": 0.662,
+      "upper_risk": 0.033478891756732555
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 3.601334651893719e-05,
+      "accepted": 351,
+      "errors": 1,
+      "empirical_risk": 0.002849002849002849,
+      "coverage": 0.702,
+      "upper_risk": 0.03159903799970236
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 0.0001989076236827425,
+      "accepted": 378,
+      "errors": 2,
+      "empirical_risk": 0.005291005291005291,
+      "coverage": 0.756,
+      "upper_risk": 0.034903293710392004
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 0.0008761161557837353,
+      "accepted": 401,
+      "errors": 4,
+      "empirical_risk": 0.00997506234413965,
+      "coverage": 0.802,
+      "upper_risk": 0.04217833367638934
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 0.004556364507987031,
+      "accepted": 422,
+      "errors": 7,
+      "empirical_risk": 0.016587677725118485,
+      "coverage": 0.844,
+      "upper_risk": 0.05191510772011137
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 0.018714084258233545,
+      "accepted": 446,
+      "errors": 14,
+      "empirical_risk": 0.03139013452914798,
+      "coverage": 0.892,
+      "upper_risk": 0.07252266895057849
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 0.11325886973202533,
+      "accepted": 469,
+      "errors": 22,
+      "empirical_risk": 0.046908315565031986,
+      "coverage": 0.938,
+      "upper_risk": 0.09232531331846526
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 500,
+      "threshold": 0.5498298339181474,
+      "accepted": 500,
+      "errors": 37,
+      "empirical_risk": 0.074,
+      "coverage": 1.0,
+      "upper_risk": 0.12502231314804835
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 6.1453394723151175e-18,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 4.62422908525098e-13,
+      "accepted": 21,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.042,
+      "upper_risk": 0.34070615476467203
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 1.0595971902695548e-11,
+      "accepted": 45,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.09,
+      "upper_risk": 0.17667707172492234
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 9.158649959483516e-11,
+      "accepted": 65,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.13,
+      "upper_risk": 0.12592518503554817
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 4.947227735321054e-10,
+      "accepted": 94,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.188,
+      "upper_risk": 0.08886761462424227
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 1.739366111298268e-09,
+      "accepted": 113,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.226,
+      "upper_risk": 0.07449766826885282
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 7.677347108325875e-09,
+      "accepted": 128,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.256,
+      "upper_risk": 0.06606284802935421
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 3.5057543574233306e-08,
+      "accepted": 157,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.314,
+      "upper_risk": 0.05419767197440495
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 1.5014226291291778e-07,
+      "accepted": 190,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.38,
+      "upper_risk": 0.04499978184335548
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 5.521429628172833e-07,
+      "accepted": 209,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.418,
+      "upper_risk": 0.040993971843569524
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 2.412303179656461e-06,
+      "accepted": 239,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.478,
+      "upper_risk": 0.03594196725854482
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 9.612324248762472e-06,
+      "accepted": 281,
+      "errors": 1,
+      "empirical_risk": 0.0035587188612099642,
+      "coverage": 0.562,
+      "upper_risk": 0.03932789076625376
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 3.181695589448248e-05,
+      "accepted": 306,
+      "errors": 1,
+      "empirical_risk": 0.0032679738562091504,
+      "coverage": 0.612,
+      "upper_risk": 0.03616847448543493
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 0.00010832614344301549,
+      "accepted": 331,
+      "errors": 1,
+      "empirical_risk": 0.0030211480362537764,
+      "coverage": 0.662,
+      "upper_risk": 0.033478891756732555
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 0.0004205223880520723,
+      "accepted": 351,
+      "errors": 1,
+      "empirical_risk": 0.002849002849002849,
+      "coverage": 0.702,
+      "upper_risk": 0.03159903799970236
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 0.0019445424861881644,
+      "accepted": 378,
+      "errors": 2,
+      "empirical_risk": 0.005291005291005291,
+      "coverage": 0.756,
+      "upper_risk": 0.034903293710392004
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 0.007655914578222626,
+      "accepted": 401,
+      "errors": 4,
+      "empirical_risk": 0.00997506234413965,
+      "coverage": 0.802,
+      "upper_risk": 0.04217833367638934
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 0.030726840096332073,
+      "accepted": 423,
+      "errors": 7,
+      "empirical_risk": 0.016548463356973995,
+      "coverage": 0.846,
+      "upper_risk": 0.051794602265173975
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 0.09624812005360142,
+      "accepted": 446,
+      "errors": 13,
+      "empirical_risk": 0.02914798206278027,
+      "coverage": 0.892,
+      "upper_risk": 0.06933358397596306
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 0.4009527840046094,
+      "accepted": 468,
+      "errors": 22,
+      "empirical_risk": 0.04700854700854701,
+      "coverage": 0.936,
+      "upper_risk": 0.0925178060135553
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 500,
+      "threshold": 1.1742599739423296,
+      "accepted": 500,
+      "errors": 37,
+      "empirical_risk": 0.074,
+      "coverage": 1.0,
+      "upper_risk": 0.12502231314804835
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.2572001690190055,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.3705351104023562,
+      "accepted": 27,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.054,
+      "upper_risk": 0.2767579252759818
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.4012857555512141,
+      "accepted": 47,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.094,
+      "upper_risk": 0.16983777631948171
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.42735525260577856,
+      "accepted": 66,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.132,
+      "upper_risk": 0.12414092513583011
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.4521196341563786,
+      "accepted": 103,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.206,
+      "upper_risk": 0.08142800957824349
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.47045938789238056,
+      "accepted": 124,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.248,
+      "upper_risk": 0.06811964413037458
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.4911994486451756,
+      "accepted": 157,
+      "errors": 1,
+      "empirical_risk": 0.006369426751592357,
+      "coverage": 0.314,
+      "upper_risk": 0.06938849954938774
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.5054894635356194,
+      "accepted": 179,
+      "errors": 1,
+      "empirical_risk": 0.00558659217877095,
+      "coverage": 0.358,
+      "upper_risk": 0.06110324133094557
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.5273101932783872,
+      "accepted": 215,
+      "errors": 2,
+      "empirical_risk": 0.009302325581395349,
+      "coverage": 0.43,
+      "upper_risk": 0.06067014004261666
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.5436914705400144,
+      "accepted": 239,
+      "errors": 2,
+      "empirical_risk": 0.008368200836820083,
+      "coverage": 0.478,
+      "upper_risk": 0.05472253331969059
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.5638415544749162,
+      "accepted": 266,
+      "errors": 4,
+      "empirical_risk": 0.015037593984962405,
+      "coverage": 0.532,
+      "upper_risk": 0.06305644388494239
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.5874062497402679,
+      "accepted": 299,
+      "errors": 4,
+      "empirical_risk": 0.013377926421404682,
+      "coverage": 0.598,
+      "upper_risk": 0.0562506321388712
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.6034306648248888,
+      "accepted": 318,
+      "errors": 5,
+      "empirical_risk": 0.015723270440251572,
+      "coverage": 0.636,
+      "upper_risk": 0.05831616353936805
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.6278572630338566,
+      "accepted": 345,
+      "errors": 6,
+      "empirical_risk": 0.017391304347826087,
+      "coverage": 0.69,
+      "upper_risk": 0.05861599133116409
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.6470203963939853,
+      "accepted": 365,
+      "errors": 8,
+      "empirical_risk": 0.021917808219178082,
+      "coverage": 0.73,
+      "upper_risk": 0.06412543434169864
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.667390590246559,
+      "accepted": 380,
+      "errors": 11,
+      "empirical_risk": 0.02894736842105263,
+      "coverage": 0.76,
+      "upper_risk": 0.07349163280445134
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.6891525153703352,
+      "accepted": 399,
+      "errors": 15,
+      "empirical_risk": 0.03759398496240601,
+      "coverage": 0.798,
+      "upper_risk": 0.08437047013081186
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.7183597091050783,
+      "accepted": 416,
+      "errors": 18,
+      "empirical_risk": 0.04326923076923077,
+      "coverage": 0.832,
+      "upper_risk": 0.09092191456614836
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.7519866292909893,
+      "accepted": 448,
+      "errors": 29,
+      "empirical_risk": 0.06473214285714286,
+      "coverage": 0.896,
+      "upper_risk": 0.11676753644266805
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 0.8092180679509992,
+      "accepted": 478,
+      "errors": 35,
+      "empirical_risk": 0.07322175732217573,
+      "coverage": 0.956,
+      "upper_risk": 0.12542534528841928
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 500,
+      "threshold": 1.434413514397895,
+      "accepted": 500,
+      "errors": 37,
+      "empirical_risk": 0.074,
+      "coverage": 1.0,
+      "upper_risk": 0.12502231314804835
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501258470516597,
+      "accepted": 2,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.004,
+      "upper_risk": 0.9874011842330258
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501258470533801,
+      "accepted": 21,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.042,
+      "upper_risk": 0.34070615476467203
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.035012584709096746,
+      "accepted": 45,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.09,
+      "upper_risk": 0.17667707172492234
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501258473901167,
+      "accepted": 65,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.13,
+      "upper_risk": 0.12592518503554817
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.0350125848878268,
+      "accepted": 94,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.188,
+      "upper_risk": 0.08886761462424227
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501258534524994,
+      "accepted": 113,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.226,
+      "upper_risk": 0.07449766826885282
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501258752380228,
+      "accepted": 128,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.256,
+      "upper_risk": 0.06606284802935421
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501259752993598,
+      "accepted": 157,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.314,
+      "upper_risk": 0.05419767197440495
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501263940113178,
+      "accepted": 190,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.38,
+      "upper_risk": 0.04499978184335548
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501278522741476,
+      "accepted": 209,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.418,
+      "upper_risk": 0.040993971843569524
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.0350134559257544,
+      "accepted": 239,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.478,
+      "upper_risk": 0.03594196725854482
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03501603066051997,
+      "accepted": 281,
+      "errors": 1,
+      "empirical_risk": 0.0035587188612099642,
+      "coverage": 0.562,
+      "upper_risk": 0.03932789076625376
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.035023919683458374,
+      "accepted": 306,
+      "errors": 1,
+      "empirical_risk": 0.0032679738562091504,
+      "coverage": 0.612,
+      "upper_risk": 0.03616847448543493
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03505090943902387,
+      "accepted": 331,
+      "errors": 1,
+      "empirical_risk": 0.0030211480362537764,
+      "coverage": 0.662,
+      "upper_risk": 0.033478891756732555
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03516046690403344,
+      "accepted": 351,
+      "errors": 1,
+      "empirical_risk": 0.002849002849002849,
+      "coverage": 0.702,
+      "upper_risk": 0.03159903799970236
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.03569094113306833,
+      "accepted": 378,
+      "errors": 2,
+      "empirical_risk": 0.005291005291005291,
+      "coverage": 0.756,
+      "upper_risk": 0.034903293710392004
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.037681432826992475,
+      "accepted": 401,
+      "errors": 4,
+      "empirical_risk": 0.00997506234413965,
+      "coverage": 0.802,
+      "upper_risk": 0.04217833367638934
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.04646834558066622,
+      "accepted": 423,
+      "errors": 7,
+      "empirical_risk": 0.016548463356973995,
+      "coverage": 0.846,
+      "upper_risk": 0.051794602265173975
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.08052855318578546,
+      "accepted": 446,
+      "errors": 13,
+      "empirical_risk": 0.02914798206278027,
+      "coverage": 0.892,
+      "upper_risk": 0.06933358397596306
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.40115498877682604,
+      "accepted": 468,
+      "errors": 22,
+      "empirical_risk": 0.04700854700854701,
+      "coverage": 0.936,
+      "upper_risk": 0.0925178060135553
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 500,
+      "threshold": 0.9946361466344967,
+      "accepted": 500,
+      "errors": 37,
+      "empirical_risk": 0.074,
+      "coverage": 1.0,
+      "upper_risk": 0.12502231314804835
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.008382226249508977,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.013491694547106976,
+      "accepted": 27,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.054,
+      "upper_risk": 0.2767579252759818
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.0153442460744119,
+      "accepted": 47,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.094,
+      "upper_risk": 0.16983777631948171
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.01710909452058443,
+      "accepted": 66,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.132,
+      "upper_risk": 0.12414092513583011
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.01901066236896882,
+      "accepted": 103,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.206,
+      "upper_risk": 0.08142800957824349
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.020528925575474255,
+      "accepted": 124,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.248,
+      "upper_risk": 0.06811964413037458
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.022352745909479384,
+      "accepted": 158,
+      "errors": 1,
+      "empirical_risk": 0.006329113924050633,
+      "coverage": 0.316,
+      "upper_risk": 0.0689634715060977
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.02376237092282532,
+      "accepted": 180,
+      "errors": 1,
+      "empirical_risk": 0.005555555555555556,
+      "coverage": 0.36,
+      "upper_risk": 0.060773381739555855
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.02613010387698434,
+      "accepted": 217,
+      "errors": 2,
+      "empirical_risk": 0.009216589861751152,
+      "coverage": 0.434,
+      "upper_risk": 0.06012558424292235
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.02832655217199395,
+      "accepted": 246,
+      "errors": 2,
+      "empirical_risk": 0.008130081300813009,
+      "coverage": 0.492,
+      "upper_risk": 0.053201316939381196
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.03061979462225546,
+      "accepted": 270,
+      "errors": 3,
+      "empirical_risk": 0.011111111111111112,
+      "coverage": 0.54,
+      "upper_risk": 0.055571511760573886
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.03364937670579415,
+      "accepted": 297,
+      "errors": 4,
+      "empirical_risk": 0.013468013468013467,
+      "coverage": 0.594,
+      "upper_risk": 0.05662101961205621
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.0377819406292064,
+      "accepted": 325,
+      "errors": 4,
+      "empirical_risk": 0.012307692307692308,
+      "coverage": 0.65,
+      "upper_risk": 0.05184191796710029
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.04140313671048927,
+      "accepted": 345,
+      "errors": 4,
+      "empirical_risk": 0.011594202898550725,
+      "coverage": 0.69,
+      "upper_risk": 0.04889403860417266
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.04579121530371105,
+      "accepted": 358,
+      "errors": 6,
+      "empirical_risk": 0.01675977653631285,
+      "coverage": 0.716,
+      "upper_risk": 0.056531119857968784
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.05229527779495272,
+      "accepted": 370,
+      "errors": 6,
+      "empirical_risk": 0.016216216216216217,
+      "coverage": 0.74,
+      "upper_risk": 0.054734047549828975
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.06397564308297086,
+      "accepted": 403,
+      "errors": 8,
+      "empirical_risk": 0.019851116625310174,
+      "coverage": 0.806,
+      "upper_risk": 0.058198817852707
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.07985802074257686,
+      "accepted": 426,
+      "errors": 10,
+      "empirical_risk": 0.023474178403755867,
+      "coverage": 0.852,
+      "upper_risk": 0.06224767423666635
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.1268842566174705,
+      "accepted": 445,
+      "errors": 14,
+      "empirical_risk": 0.03146067415730337,
+      "coverage": 0.89,
+      "upper_risk": 0.07268212493729057
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.4029242137406162,
+      "accepted": 466,
+      "errors": 22,
+      "empirical_risk": 0.04721030042918455,
+      "coverage": 0.932,
+      "upper_risk": 0.09290520825809064
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 500,
+      "threshold": 0.9951649817084627,
+      "accepted": 500,
+      "errors": 37,
+      "empirical_risk": 0.074,
+      "coverage": 1.0,
+      "upper_risk": 0.12502231314804835
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 0.0,
+      "accepted": 9,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.009,
+      "upper_risk": 0.6216871874468075
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 1.374456104485944e-14,
+      "accepted": 43,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.043,
+      "upper_risk": 0.1840881456238912
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 3.535616244221274e-13,
+      "accepted": 97,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.097,
+      "upper_risk": 0.08624126680977838
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 3.325606456883187e-12,
+      "accepted": 141,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.141,
+      "upper_risk": 0.06015913978167992
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 1.8393597756016794e-11,
+      "accepted": 198,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.198,
+      "upper_risk": 0.0432214917423365
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 7.024686388135137e-11,
+      "accepted": 236,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.236,
+      "upper_risk": 0.036390441397467485
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 3.307920160011691e-10,
+      "accepted": 272,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.272,
+      "upper_risk": 0.03165116095303636
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 1.62735833697525e-09,
+      "accepted": 327,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.327,
+      "upper_risk": 0.026398528619525352
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 7.525518896933651e-09,
+      "accepted": 393,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.393,
+      "upper_risk": 0.02201438519438053
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 2.9309943644362246e-08,
+      "accepted": 437,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.437,
+      "upper_risk": 0.019819954580532356
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 1.4082621663247252e-07,
+      "accepted": 503,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.503,
+      "upper_risk": 0.017241884030638786
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 6.092133566171229e-07,
+      "accepted": 575,
+      "errors": 2,
+      "empirical_risk": 0.0034782608695652175,
+      "coverage": 0.575,
+      "upper_risk": 0.023063652268879586
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 2.2413413444777343e-06,
+      "accepted": 623,
+      "errors": 2,
+      "empirical_risk": 0.0032102728731942215,
+      "coverage": 0.623,
+      "upper_risk": 0.021302906392052057
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 8.473173171885675e-06,
+      "accepted": 674,
+      "errors": 2,
+      "empirical_risk": 0.002967359050445104,
+      "coverage": 0.674,
+      "upper_risk": 0.019704574333863502
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 3.601334651893719e-05,
+      "accepted": 713,
+      "errors": 3,
+      "empirical_risk": 0.004207573632538569,
+      "coverage": 0.713,
+      "upper_risk": 0.021344603081254715
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 0.0001989076236827425,
+      "accepted": 754,
+      "errors": 6,
+      "empirical_risk": 0.007957559681697613,
+      "coverage": 0.754,
+      "upper_risk": 0.027131421340075644
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 0.0008761161557837353,
+      "accepted": 796,
+      "errors": 8,
+      "empirical_risk": 0.010050251256281407,
+      "coverage": 0.796,
+      "upper_risk": 0.029754422849898588
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 0.004556364507987031,
+      "accepted": 845,
+      "errors": 15,
+      "empirical_risk": 0.01775147928994083,
+      "coverage": 0.845,
+      "upper_risk": 0.04035994313886843
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 0.018714084258233545,
+      "accepted": 885,
+      "errors": 27,
+      "empirical_risk": 0.030508474576271188,
+      "coverage": 0.885,
+      "upper_risk": 0.05698834620226343
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 0.11325886973202533,
+      "accepted": 935,
+      "errors": 47,
+      "empirical_risk": 0.05026737967914439,
+      "coverage": 0.935,
+      "upper_risk": 0.08103589138007847
+    },
+    {
+      "method": "MSP",
+      "calibration_n": 1000,
+      "threshold": 0.5498298339181474,
+      "accepted": 998,
+      "errors": 80,
+      "empirical_risk": 0.08016032064128256,
+      "coverage": 0.998,
+      "upper_risk": 0.11546207227403577
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 6.1453394723151175e-18,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 4.62422908525098e-13,
+      "accepted": 44,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.044,
+      "upper_risk": 0.1803067644003007
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 1.0595971902695548e-11,
+      "accepted": 94,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.094,
+      "upper_risk": 0.08886761462424227
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 9.158649959483516e-11,
+      "accepted": 141,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.141,
+      "upper_risk": 0.06015913978167992
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 4.947227735321054e-10,
+      "accepted": 199,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.199,
+      "upper_risk": 0.043009037567512585
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 1.739366111298268e-09,
+      "accepted": 236,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.236,
+      "upper_risk": 0.036390441397467485
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 7.677347108325875e-09,
+      "accepted": 272,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.272,
+      "upper_risk": 0.03165116095303636
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 3.5057543574233306e-08,
+      "accepted": 327,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.327,
+      "upper_risk": 0.026398528619525352
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 1.5014226291291778e-07,
+      "accepted": 393,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.393,
+      "upper_risk": 0.02201438519438053
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 5.521429628172833e-07,
+      "accepted": 439,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.439,
+      "upper_risk": 0.01973055538487625
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 2.412303179656461e-06,
+      "accepted": 501,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.501,
+      "upper_risk": 0.01731011471994586
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 9.612324248762472e-06,
+      "accepted": 576,
+      "errors": 2,
+      "empirical_risk": 0.003472222222222222,
+      "coverage": 0.576,
+      "upper_risk": 0.023024006564177503
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 3.181695589448248e-05,
+      "accepted": 622,
+      "errors": 2,
+      "empirical_risk": 0.003215434083601286,
+      "coverage": 0.622,
+      "upper_risk": 0.021336842243506824
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.00010832614344301549,
+      "accepted": 674,
+      "errors": 2,
+      "empirical_risk": 0.002967359050445104,
+      "coverage": 0.674,
+      "upper_risk": 0.019704574333863502
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.0004205223880520723,
+      "accepted": 713,
+      "errors": 3,
+      "empirical_risk": 0.004207573632538569,
+      "coverage": 0.713,
+      "upper_risk": 0.021344603081254715
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.0019445424861881644,
+      "accepted": 754,
+      "errors": 6,
+      "empirical_risk": 0.007957559681697613,
+      "coverage": 0.754,
+      "upper_risk": 0.027131421340075644
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.007655914578222626,
+      "accepted": 797,
+      "errors": 8,
+      "empirical_risk": 0.010037641154328732,
+      "coverage": 0.797,
+      "upper_risk": 0.029717463308911393
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.030726840096332073,
+      "accepted": 846,
+      "errors": 15,
+      "empirical_risk": 0.01773049645390071,
+      "coverage": 0.846,
+      "upper_risk": 0.04031278882692659
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.09624812005360142,
+      "accepted": 887,
+      "errors": 27,
+      "empirical_risk": 0.030439684329199548,
+      "coverage": 0.887,
+      "upper_risk": 0.056861615656488076
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.4009527840046094,
+      "accepted": 938,
+      "errors": 50,
+      "empirical_risk": 0.053304904051172705,
+      "coverage": 0.938,
+      "upper_risk": 0.08469550481983348
+    },
+    {
+      "method": "Entropy",
+      "calibration_n": 1000,
+      "threshold": 1.1742599739423296,
+      "accepted": 999,
+      "errors": 80,
+      "empirical_risk": 0.08008008008008008,
+      "coverage": 0.999,
+      "upper_risk": 0.11534873746649747
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.2572001690190055,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.3705351104023562,
+      "accepted": 53,
+      "errors": 1,
+      "empirical_risk": 0.018867924528301886,
+      "coverage": 0.053,
+      "upper_risk": 0.19298365487046823
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.4012857555512141,
+      "accepted": 109,
+      "errors": 1,
+      "empirical_risk": 0.009174311926605505,
+      "coverage": 0.109,
+      "upper_risk": 0.09853162207992537
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.42735525260577856,
+      "accepted": 155,
+      "errors": 1,
+      "empirical_risk": 0.0064516129032258064,
+      "coverage": 0.155,
+      "upper_risk": 0.07025446181830423
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.4521196341563786,
+      "accepted": 215,
+      "errors": 1,
+      "empirical_risk": 0.004651162790697674,
+      "coverage": 0.215,
+      "upper_risk": 0.051115008027495724
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.47045938789238056,
+      "accepted": 249,
+      "errors": 1,
+      "empirical_risk": 0.004016064257028112,
+      "coverage": 0.249,
+      "upper_risk": 0.044278619399528325
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.4911994486451756,
+      "accepted": 312,
+      "errors": 2,
+      "empirical_risk": 0.00641025641025641,
+      "coverage": 0.312,
+      "upper_risk": 0.0421524626062858
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.5054894635356194,
+      "accepted": 357,
+      "errors": 2,
+      "empirical_risk": 0.0056022408963585435,
+      "coverage": 0.357,
+      "upper_risk": 0.03692376618697039
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.5273101932783872,
+      "accepted": 420,
+      "errors": 4,
+      "empirical_risk": 0.009523809523809525,
+      "coverage": 0.42,
+      "upper_risk": 0.040300225628463
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.5436914705400144,
+      "accepted": 463,
+      "errors": 4,
+      "empirical_risk": 0.008639308855291577,
+      "coverage": 0.463,
+      "upper_risk": 0.03661077111138163
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.5638415544749162,
+      "accepted": 515,
+      "errors": 7,
+      "empirical_risk": 0.013592233009708738,
+      "coverage": 0.515,
+      "upper_risk": 0.042679965180808334
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.5874062497402679,
+      "accepted": 588,
+      "errors": 10,
+      "empirical_risk": 0.017006802721088437,
+      "coverage": 0.588,
+      "upper_risk": 0.04534821910351222
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.6034306648248888,
+      "accepted": 622,
+      "errors": 11,
+      "empirical_risk": 0.017684887459807074,
+      "coverage": 0.622,
+      "upper_risk": 0.045306465040431176
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.6278572630338566,
+      "accepted": 671,
+      "errors": 15,
+      "empirical_risk": 0.022354694485842028,
+      "coverage": 0.671,
+      "upper_risk": 0.05067318156054821
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.6470203963939853,
+      "accepted": 709,
+      "errors": 17,
+      "empirical_risk": 0.023977433004231313,
+      "coverage": 0.709,
+      "upper_risk": 0.05195382729505822
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.667390590246559,
+      "accepted": 738,
+      "errors": 23,
+      "empirical_risk": 0.03116531165311653,
+      "coverage": 0.738,
+      "upper_risk": 0.061003658651558566
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.6891525153703352,
+      "accepted": 785,
+      "errors": 27,
+      "empirical_risk": 0.034394904458598725,
+      "coverage": 0.785,
+      "upper_risk": 0.06413527466555442
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.7183597091050783,
+      "accepted": 828,
+      "errors": 40,
+      "empirical_risk": 0.04830917874396135,
+      "coverage": 0.828,
+      "upper_risk": 0.08087334064281143
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.7519866292909893,
+      "accepted": 887,
+      "errors": 57,
+      "empirical_risk": 0.06426155580608793,
+      "coverage": 0.887,
+      "upper_risk": 0.09902176809192031
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 0.8092180679509992,
+      "accepted": 948,
+      "errors": 73,
+      "empirical_risk": 0.0770042194092827,
+      "coverage": 0.948,
+      "upper_risk": 0.1128028729552688
+    },
+    {
+      "method": "Distance",
+      "calibration_n": 1000,
+      "threshold": 1.434413514397895,
+      "accepted": 1000,
+      "errors": 81,
+      "empirical_risk": 0.081,
+      "coverage": 1.0,
+      "upper_risk": 0.11639977666332661
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501258470516597,
+      "accepted": 2,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.002,
+      "upper_risk": 0.9874011842330258
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501258470533801,
+      "accepted": 44,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.044,
+      "upper_risk": 0.1803067644003007
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.035012584709096746,
+      "accepted": 94,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.094,
+      "upper_risk": 0.08886761462424227
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501258473901167,
+      "accepted": 141,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.141,
+      "upper_risk": 0.06015913978167992
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.0350125848878268,
+      "accepted": 199,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.199,
+      "upper_risk": 0.043009037567512585
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501258534524994,
+      "accepted": 236,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.236,
+      "upper_risk": 0.036390441397467485
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501258752380228,
+      "accepted": 272,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.272,
+      "upper_risk": 0.03165116095303636
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501259752993598,
+      "accepted": 327,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.327,
+      "upper_risk": 0.026398528619525352
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501263940113178,
+      "accepted": 393,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.393,
+      "upper_risk": 0.02201438519438053
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501278522741476,
+      "accepted": 439,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.439,
+      "upper_risk": 0.01973055538487625
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.0350134559257544,
+      "accepted": 501,
+      "errors": 0,
+      "empirical_risk": 0.0,
+      "coverage": 0.501,
+      "upper_risk": 0.01731011471994586
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03501603066051997,
+      "accepted": 576,
+      "errors": 2,
+      "empirical_risk": 0.003472222222222222,
+      "coverage": 0.576,
+      "upper_risk": 0.023024006564177503
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.035023919683458374,
+      "accepted": 622,
+      "errors": 2,
+      "empirical_risk": 0.003215434083601286,
+      "coverage": 0.622,
+      "upper_risk": 0.021336842243506824
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03505090943902387,
+      "accepted": 674,
+      "errors": 2,
+      "empirical_risk": 0.002967359050445104,
+      "coverage": 0.674,
+      "upper_risk": 0.019704574333863502
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03516046690403344,
+      "accepted": 713,
+      "errors": 3,
+      "empirical_risk": 0.004207573632538569,
+      "coverage": 0.713,
+      "upper_risk": 0.021344603081254715
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.03569094113306833,
+      "accepted": 754,
+      "errors": 6,
+      "empirical_risk": 0.007957559681697613,
+      "coverage": 0.754,
+      "upper_risk": 0.027131421340075644
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.037681432826992475,
+      "accepted": 797,
+      "errors": 8,
+      "empirical_risk": 0.010037641154328732,
+      "coverage": 0.797,
+      "upper_risk": 0.029717463308911393
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.04646834558066622,
+      "accepted": 846,
+      "errors": 15,
+      "empirical_risk": 0.01773049645390071,
+      "coverage": 0.846,
+      "upper_risk": 0.04031278882692659
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.08052855318578546,
+      "accepted": 887,
+      "errors": 27,
+      "empirical_risk": 0.030439684329199548,
+      "coverage": 0.887,
+      "upper_risk": 0.056861615656488076
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.40115498877682604,
+      "accepted": 936,
+      "errors": 49,
+      "empirical_risk": 0.05235042735042735,
+      "coverage": 0.936,
+      "upper_risk": 0.08356882044135053
+    },
+    {
+      "method": "MSP+Entropy",
+      "calibration_n": 1000,
+      "threshold": 0.9946361466344967,
+      "accepted": 999,
+      "errors": 80,
+      "empirical_risk": 0.08008008008008008,
+      "coverage": 0.999,
+      "upper_risk": 0.11534873746649747
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.008382226249508977,
+      "accepted": 0,
+      "errors": 0,
+      "empirical_risk": null,
+      "coverage": 0.0,
+      "upper_risk": 1.0
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.013491694547106976,
+      "accepted": 53,
+      "errors": 1,
+      "empirical_risk": 0.018867924528301886,
+      "coverage": 0.053,
+      "upper_risk": 0.19298365487046823
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.0153442460744119,
+      "accepted": 109,
+      "errors": 1,
+      "empirical_risk": 0.009174311926605505,
+      "coverage": 0.109,
+      "upper_risk": 0.09853162207992537
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.01710909452058443,
+      "accepted": 155,
+      "errors": 1,
+      "empirical_risk": 0.0064516129032258064,
+      "coverage": 0.155,
+      "upper_risk": 0.07025446181830423
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.01901066236896882,
+      "accepted": 215,
+      "errors": 1,
+      "empirical_risk": 0.004651162790697674,
+      "coverage": 0.215,
+      "upper_risk": 0.051115008027495724
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.020528925575474255,
+      "accepted": 250,
+      "errors": 1,
+      "empirical_risk": 0.004,
+      "coverage": 0.25,
+      "upper_risk": 0.044105119279971156
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.022352745909479384,
+      "accepted": 314,
+      "errors": 2,
+      "empirical_risk": 0.006369426751592357,
+      "coverage": 0.314,
+      "upper_risk": 0.04188883196109843
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.02376237092282532,
+      "accepted": 358,
+      "errors": 2,
+      "empirical_risk": 0.00558659217877095,
+      "coverage": 0.358,
+      "upper_risk": 0.03682226402969542
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.02613010387698434,
+      "accepted": 419,
+      "errors": 3,
+      "empirical_risk": 0.007159904534606206,
+      "coverage": 0.419,
+      "upper_risk": 0.036101680527497314
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.02832655217199395,
+      "accepted": 476,
+      "errors": 4,
+      "empirical_risk": 0.008403361344537815,
+      "coverage": 0.476,
+      "upper_risk": 0.03562474840394332
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.03061979462225546,
+      "accepted": 523,
+      "errors": 7,
+      "empirical_risk": 0.01338432122370937,
+      "coverage": 0.523,
+      "upper_risk": 0.04203668801877167
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.03364937670579415,
+      "accepted": 585,
+      "errors": 9,
+      "empirical_risk": 0.015384615384615385,
+      "coverage": 0.585,
+      "upper_risk": 0.042983360062057566
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.0377819406292064,
+      "accepted": 636,
+      "errors": 9,
+      "empirical_risk": 0.014150943396226415,
+      "coverage": 0.636,
+      "upper_risk": 0.039581441762501626
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.04140313671048927,
+      "accepted": 678,
+      "errors": 10,
+      "empirical_risk": 0.014749262536873156,
+      "coverage": 0.678,
+      "upper_risk": 0.039404568371848685
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.04579121530371105,
+      "accepted": 699,
+      "errors": 12,
+      "empirical_risk": 0.017167381974248927,
+      "coverage": 0.699,
+      "upper_risk": 0.04249087075287449
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.05229527779495272,
+      "accepted": 743,
+      "errors": 14,
+      "empirical_risk": 0.018842530282637954,
+      "coverage": 0.743,
+      "upper_risk": 0.04390873092651943
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.06397564308297086,
+      "accepted": 799,
+      "errors": 17,
+      "empirical_risk": 0.02127659574468085,
+      "coverage": 0.799,
+      "upper_risk": 0.04617685424591949
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.07985802074257686,
+      "accepted": 848,
+      "errors": 22,
+      "empirical_risk": 0.025943396226415096,
+      "coverage": 0.848,
+      "upper_risk": 0.051615256110931096
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.1268842566174705,
+      "accepted": 887,
+      "errors": 30,
+      "empirical_risk": 0.033821871476888386,
+      "coverage": 0.887,
+      "upper_risk": 0.06126512766737411
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.4029242137406162,
+      "accepted": 929,
+      "errors": 47,
+      "empirical_risk": 0.05059203444564048,
+      "coverage": 0.929,
+      "upper_risk": 0.08155064480984821
+    },
+    {
+      "method": "Combined",
+      "calibration_n": 1000,
+      "threshold": 0.9951649817084627,
+      "accepted": 999,
+      "errors": 80,
+      "empirical_risk": 0.08008008008008008,
+      "coverage": 0.999,
+      "upper_risk": 0.11534873746649747
+    }
+  ],
+  "assumption": "IID independent calibration and future clean examples from the same population; fixed pre-calibration model, scores, and candidate grids",
+  "limitation": "CIFAR is a fixed benchmark; the IID population model is an assumption, not empirically verified. No guarantee under arbitrary shift. No certified rule means reject all; its conditional risk is undefined."
+}

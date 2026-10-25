@@ -1,0 +1,1 @@
+Training loss, independent checkpoint-selection accuracy, and cosine learning rate. Star marks the validation-selected checkpoint; no test outcomes select it.

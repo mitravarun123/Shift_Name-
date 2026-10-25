@@ -1,0 +1,1 @@
+ResNet-18 · clean · N=10,000 · seed 42. Cal. upper risk is the simultaneous upper bound used for eligibility; test risk is an observed fraction and can fluctuate above target. N/A denotes no accepted test examples. A clean calibration certificate is not a shift guarantee. One seed; no across-seed confidence intervals are shown.

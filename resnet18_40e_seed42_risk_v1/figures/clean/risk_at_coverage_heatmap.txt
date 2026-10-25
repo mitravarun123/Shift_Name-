@@ -1,0 +1,1 @@
+ResNet-18 · clean · N=10,000 · seed 42. Annotated values are observed test error percentages at ceil(coverage × N) accepted predictions. Same examples for every method; lower is better. One seed; no across-seed confidence intervals are shown.

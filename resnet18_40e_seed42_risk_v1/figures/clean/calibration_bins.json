@@ -1,0 +1,282 @@
+[
+  {
+    "series": "Classifier confidence",
+    "bin": 5,
+    "count": 9,
+    "mean_probability": 0.3846986264919516,
+    "outcome_rate": 0.4444444444444444
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 6,
+    "count": 11,
+    "mean_probability": 0.4349027991388736,
+    "outcome_rate": 0.09090909090909091
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 7,
+    "count": 67,
+    "mean_probability": 0.5052348215194079,
+    "outcome_rate": 0.4626865671641791
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 8,
+    "count": 75,
+    "mean_probability": 0.567788318397297,
+    "outcome_rate": 0.49333333333333335
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 9,
+    "count": 85,
+    "mean_probability": 0.6338995715876365,
+    "outcome_rate": 0.49411764705882355
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 10,
+    "count": 89,
+    "mean_probability": 0.6983785574695558,
+    "outcome_rate": 0.4943820224719101
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 11,
+    "count": 94,
+    "mean_probability": 0.7699705584616167,
+    "outcome_rate": 0.5531914893617021
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 12,
+    "count": 143,
+    "mean_probability": 0.8372879904568045,
+    "outcome_rate": 0.5804195804195804
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 13,
+    "count": 234,
+    "mean_probability": 0.9025208624766807,
+    "outcome_rate": 0.6239316239316239
+  },
+  {
+    "series": "Classifier confidence",
+    "bin": 14,
+    "count": 9193,
+    "mean_probability": 0.9980746821163557,
+    "outcome_rate": 0.9629065593386272
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 0,
+    "count": 8758,
+    "mean_probability": 0.03604798563768015,
+    "outcome_rate": 0.025462434345741036
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 1,
+    "count": 283,
+    "mean_probability": 0.09332957431958978,
+    "outcome_rate": 0.24734982332155478
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 2,
+    "count": 94,
+    "mean_probability": 0.16469343875664583,
+    "outcome_rate": 0.2872340425531915
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 3,
+    "count": 86,
+    "mean_probability": 0.23477042475242105,
+    "outcome_rate": 0.313953488372093
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 4,
+    "count": 73,
+    "mean_probability": 0.29491383494322027,
+    "outcome_rate": 0.3561643835616438
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 5,
+    "count": 93,
+    "mean_probability": 0.365484987572949,
+    "outcome_rate": 0.3655913978494624
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 6,
+    "count": 82,
+    "mean_probability": 0.4346133633798198,
+    "outcome_rate": 0.4268292682926829
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 7,
+    "count": 102,
+    "mean_probability": 0.5012204404522835,
+    "outcome_rate": 0.4215686274509804
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 8,
+    "count": 133,
+    "mean_probability": 0.5611573677838194,
+    "outcome_rate": 0.45112781954887216
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 9,
+    "count": 52,
+    "mean_probability": 0.6301587789045423,
+    "outcome_rate": 0.5576923076923077
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 10,
+    "count": 38,
+    "mean_probability": 0.7025523745966266,
+    "outcome_rate": 0.5
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 11,
+    "count": 37,
+    "mean_probability": 0.7624687260134524,
+    "outcome_rate": 0.6216216216216216
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 12,
+    "count": 46,
+    "mean_probability": 0.8367033568697322,
+    "outcome_rate": 0.5434782608695652
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 13,
+    "count": 53,
+    "mean_probability": 0.9022449061400639,
+    "outcome_rate": 0.5471698113207547
+  },
+  {
+    "series": "Error: MSP + entropy",
+    "bin": 14,
+    "count": 70,
+    "mean_probability": 0.9656884033518294,
+    "outcome_rate": 0.5428571428571428
+  },
+  {
+    "series": "Error: all three",
+    "bin": 0,
+    "count": 8138,
+    "mean_probability": 0.028432452738037517,
+    "outcome_rate": 0.022855738510690587
+  },
+  {
+    "series": "Error: all three",
+    "bin": 1,
+    "count": 727,
+    "mean_probability": 0.09025269035712921,
+    "outcome_rate": 0.11416781292984869
+  },
+  {
+    "series": "Error: all three",
+    "bin": 2,
+    "count": 190,
+    "mean_probability": 0.15998176339494816,
+    "outcome_rate": 0.18421052631578946
+  },
+  {
+    "series": "Error: all three",
+    "bin": 3,
+    "count": 111,
+    "mean_probability": 0.23265250355831582,
+    "outcome_rate": 0.3153153153153153
+  },
+  {
+    "series": "Error: all three",
+    "bin": 4,
+    "count": 105,
+    "mean_probability": 0.300442374711563,
+    "outcome_rate": 0.29523809523809524
+  },
+  {
+    "series": "Error: all three",
+    "bin": 5,
+    "count": 100,
+    "mean_probability": 0.36633721974899297,
+    "outcome_rate": 0.37
+  },
+  {
+    "series": "Error: all three",
+    "bin": 6,
+    "count": 94,
+    "mean_probability": 0.4345195877980973,
+    "outcome_rate": 0.3829787234042553
+  },
+  {
+    "series": "Error: all three",
+    "bin": 7,
+    "count": 97,
+    "mean_probability": 0.502273423227477,
+    "outcome_rate": 0.41237113402061853
+  },
+  {
+    "series": "Error: all three",
+    "bin": 8,
+    "count": 98,
+    "mean_probability": 0.5632507821106865,
+    "outcome_rate": 0.46938775510204084
+  },
+  {
+    "series": "Error: all three",
+    "bin": 9,
+    "count": 71,
+    "mean_probability": 0.6339020795524296,
+    "outcome_rate": 0.49295774647887325
+  },
+  {
+    "series": "Error: all three",
+    "bin": 10,
+    "count": 53,
+    "mean_probability": 0.6978485448828902,
+    "outcome_rate": 0.49056603773584906
+  },
+  {
+    "series": "Error: all three",
+    "bin": 11,
+    "count": 50,
+    "mean_probability": 0.7674880884767616,
+    "outcome_rate": 0.52
+  },
+  {
+    "series": "Error: all three",
+    "bin": 12,
+    "count": 44,
+    "mean_probability": 0.8335226603903428,
+    "outcome_rate": 0.5681818181818182
+  },
+  {
+    "series": "Error: all three",
+    "bin": 13,
+    "count": 61,
+    "mean_probability": 0.9007980983633381,
+    "outcome_rate": 0.5737704918032787
+  },
+  {
+    "series": "Error: all three",
+    "bin": 14,
+    "count": 61,
+    "mean_probability": 0.9645638420848736,
+    "outcome_rate": 0.5245901639344263
+  }
+]

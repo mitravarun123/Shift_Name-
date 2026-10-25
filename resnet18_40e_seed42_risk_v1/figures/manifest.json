@@ -1,0 +1,18 @@
+{
+  "format": "PNG only",
+  "dpi": 600,
+  "files": [
+    "figures/clean/roc.png",
+    "figures/clean/risk_coverage.png",
+    "figures/clean/risk_at_coverage_heatmap.png",
+    "figures/clean/calibration.png",
+    "figures/clean/confusion_matrix.png",
+    "figures/clean/results_table.png",
+    "figures/clean/risk_control_coverage_heatmap.png",
+    "figures/clean/calibration_budget_coverage.png",
+    "figures/clean/risk_control_table.png",
+    "figures/training/training_curves.png"
+  ],
+  "seed": 42,
+  "note": "Figures derive from actual saved predictions/metrics. One seed; no across-seed error bars."
+}

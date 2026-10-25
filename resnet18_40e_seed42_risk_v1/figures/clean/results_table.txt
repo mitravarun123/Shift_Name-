@@ -1,0 +1,1 @@
+ResNet-18 · clean · N=10,000 · seed 42. AUROC higher is better; AURC and accepted risks lower are better. Risks are percentages; AUROC/AURC are fractions. N/A means undefined. No across-seed uncertainty is implied. One seed; no across-seed confidence intervals are shown.
